@@ -11,6 +11,14 @@ import java.util.Map;
  */
 public class CustomerService {
 
+    private static final String DRIVER;
+    private static final String URL;
+    private static final String USERNAME;
+    private static final String PASSWORD;
+
+
+
+
     /*
     * 获取客户列表
     * */
@@ -29,14 +37,14 @@ public class CustomerService {
     * 创建客户
     * */
     public boolean createCustomer(Map<String, Object> fieldMap) {
-        return null;
+        return false;
     }
 
     /*
     * 更新客户
     * */
     public boolean updateCustomer(long id, Map<String, Object> fieldMap) {
-        return null;
+        return false;
     }
 
 
@@ -44,7 +52,7 @@ public class CustomerService {
     * 删除客户
     * */
     public boolean deleteCustomer(long id) {
-        return null;
+        return false;
     }
 
 }
