@@ -27,4 +27,8 @@ public final class StringUtil {
     }
 
 
+    public static String[] splitString(String str, String sep) {
+        return StringUtils.split(str, sep);
+    }
+
 }
